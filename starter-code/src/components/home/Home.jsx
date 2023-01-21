@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { fetchMovies } from "../../service";
-import RBCarousel from 'react-bootstrap-carousel';
+import ReactBootstrapCarousel from 'react-bootstrap-carousel';
 
 const Home = () => {
   const [nowPlaying, setNowPlaying] = useState([]);
@@ -10,7 +10,7 @@ const Home = () => {
       setNowPlaying(await fetchMovies());
     };
 
-    fetchAPI();
+    // fetchAPI();
   }, []);
 
   const movies = nowPlaying.slice(0, 5).map((item, index) => {
@@ -26,9 +26,10 @@ const Home = () => {
 
   return (
     <div className="container">
+      <h1>I am home</h1>
       <div className="row">
         <div className="col">
-          <RBCarousel
+          <ReactBootstrapCarousel
             autoplay={true}
             pauseOnVisibility={true}
             slideshowSpeed={5000}
@@ -36,7 +37,7 @@ const Home = () => {
             indicators={false}
           >
             {movies}
-          </RBCarousel>
+          </ReactBootstrapCarousel>
         </div>
       </div>
     </div>
