@@ -1,19 +1,25 @@
-import logo from './logo.svg';
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-import './App.css';
-import Home from "./components/home/Home";
-import MovieDetail from "./components/movedetail/MovieDetail";
+import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Header from "./components/header/Header";
+import Home from "./pages/home/Home";
+import MovieList from "./components/movieList/MovieList";
+import Movie from "./pages/movieDetail/Movie";
+import Search from "./pages/home/Search";
 
 function App() {
   return (
-      <BrowserRouter>
-        <Link to="/">Home</Link>
-        <Link to="/movie">Movie</Link>
+    <div className="App">
+      <Router>
+        <Header />
         <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route path="/movie" element={<MovieDetail />}/>
+          <Route index element={<Home />}></Route>
+          <Route path="movie/:id" element={<Movie />}></Route>
+          <Route path="movies/:type" element={<MovieList />}></Route>
+          <Route path="/search" element={<Search />}></Route>
+          <Route path="/*" element={<h1>Error Page</h1>}></Route>
         </Routes>
-      </BrowserRouter>
+      </Router>
+    </div>
   );
 }
 
