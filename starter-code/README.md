@@ -6,14 +6,19 @@ Project Description
 
 Allows Users to do the following:
 
+
 1. View popular, toprated and upcoming movies
 
 ![homepage](https://user-images.githubusercontent.com/115027854/215259965-823b63ed-2477-4249-be03-53b3ffe8a7e7.jpg)
 ![popular page](https://user-images.githubusercontent.com/115027854/215259961-c9dc2a1c-5bcd-4f85-85d2-1a3b1ee594b6.jpg)
 
+
+
 2. View details such as genre,ratings,date,votes,duration and synopsis of movies
 
 ![Synopsis](https://user-images.githubusercontent.com/115027854/215260032-dec8ac79-be15-442e-97e3-c1eaf25a84c7.png)
+
+
 
 3. Search for Movies
 
@@ -34,7 +39,8 @@ Dependencies used:
 
 WireFrames:
 
-![WireFrames](https://user-images.githubusercontent.com/115027854/215259933-2a44a310-83dc-4141-96b5-a59800dc4190.png)
+
+![WireFrames](https://user-images.githubusercontent.com/115027854/215260106-05f8db5a-4842-4a2e-af53-6c6bc8b52316.png)
 
 
 
