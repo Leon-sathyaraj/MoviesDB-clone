@@ -1,8 +1,8 @@
-MoviesDB-clone is a React-based web application that allows users to search and view movie information from the movieDB database.
+<h2>MoviesDB-clone is a React-based web application that allows users to search and view movie information from the movieDB database.</h2>
 
-Project Description
+<h4>Project Description</h4>
 
-Allows Users to do the following:
+<h5>Allows Users to do the following:</h5>
 
 
 1. View popular, toprated and upcoming movies
@@ -24,23 +24,23 @@ Allows Users to do the following:
 
 
 
-Dependencies used:
+<h5>Dependencies used:</h5>
 
 "axios": "^1.2.4"</br>
-"react": "^17.0.2"
-"react-dom": "^17.0.2"
-"react-loading-skeleton": "^2.2.0"
-"react-responsive-carousel": "^3.2.22"
-"react-router-dom": "^6.2.1"
-"react-scripts": "5.0.0"
-"web-vitals": "^2.1.4"
+"react": "^17.0.2"</br>
+"react-dom": "^17.0.2"</br>
+"react-loading-skeleton": "^2.2.0"</br>
+"react-responsive-carousel": "^3.2.22"</br>
+"react-router-dom": "^6.2.1"</br>
+"react-scripts": "5.0.0"</br>
+"web-vitals": "^2.1.4"</br>
 
-WireFrames:
+<h5>WireFrames:</h5>
 
 
 ![WireFrames](https://user-images.githubusercontent.com/115027854/215260106-05f8db5a-4842-4a2e-af53-6c6bc8b52316.png)
 
 
 
-Live Demo can be viewed below;
+<h5>Live Demo can be viewed below;</h5>
 https://movieappclone.netlify.app/
