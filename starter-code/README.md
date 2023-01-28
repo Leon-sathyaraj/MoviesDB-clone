@@ -5,7 +5,7 @@
 <h5>Allows Users to do the following:</h5>
 
 
-1. View popular, toprated and upcoming movies
+1. View popular, top-rated and upcoming movies
 
 ![homepage](https://user-images.githubusercontent.com/115027854/215259965-823b63ed-2477-4249-be03-53b3ffe8a7e7.jpg)
 ![popular page](https://user-images.githubusercontent.com/115027854/215259961-c9dc2a1c-5bcd-4f85-85d2-1a3b1ee594b6.jpg)
