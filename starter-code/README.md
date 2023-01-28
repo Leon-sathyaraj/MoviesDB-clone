@@ -26,7 +26,7 @@ Allows Users to do the following:
 
 Dependencies used:
 
-"axios": "^1.2.4"
+"axios": "^1.2.4"</br>
 "react": "^17.0.2"
 "react-dom": "^17.0.2"
 "react-loading-skeleton": "^2.2.0"
