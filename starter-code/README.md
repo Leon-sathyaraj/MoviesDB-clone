@@ -1,5 +1,3 @@
-Movie React App
-
 MoviesDB-clone is a React-based web application that allows users to search and view movie information from the movieDB database.
 
 Project Description
